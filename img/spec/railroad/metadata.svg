@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="394" height="109" viewBox="0 0 394 109">
+	<style>
+svg.railroad-diagram {
+	background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+	stroke-width: 3;
+	stroke: black;
+	fill: rgba(0,0,0,0);
+}
+svg.railroad-diagram text {
+	font: bold 14px monospace;
+	text-anchor: middle;
+}
+svg.railroad-diagram text.diagram-text {
+	font-size: 12px;
+}
+svg.railroad-diagram text.diagram-arrow {
+	font-size: 16px;
+}
+svg.railroad-diagram text.label {
+	text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+	font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+	stroke-width: 3;
+	stroke: black;
+	fill: hsl(120,100%,90%);
+}
+svg.railroad-diagram path.diagram-text {
+	stroke-width: 3;
+	stroke: black;
+	fill: white;
+	cursor: help;
+}
+svg.railroad-diagram g.diagram-text:hover path.diagram-text {
+	fill: #eee;
+}
+	</style>
+	<g transform="translate(.5 .5)">
+		<path d="M 20 59 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+		<g>
+			<path d="M40 69h0"></path>
+			<path d="M148 69h0"></path>
+			<path d="M40 69a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+			<g class="terminal">
+				<path d="M60 39h0"></path>
+				<path d="M128 39h0"></path>
+				<rect x="60" y="28" width="68" height="22" rx="10" ry="10"></rect>
+				<text x="94" y="43">Number</text>
+			</g>
+			<path d="M128 39a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+			<path d="M40 69h20"></path>
+			<g class="terminal">
+				<path d="M60 69h8"></path>
+				<path d="M120 69h8"></path>
+				<rect x="68" y="58" width="52" height="22" rx="10" ry="10"></rect>
+				<text x="94" y="73">Name</text>
+			</g>
+			<path d="M128 69h20"></path>
+		</g>
+		<g>
+			<path d="M148 69h0"></path>
+			<path d="M354 69h0"></path>
+			<path d="M148 69a10 10 0 0 0 10 -10v-29a10 10 0 0 1 10 -10"></path>
+			<g>
+				<path d="M168 20h166"></path>
+			</g>
+			<path d="M334 20a10 10 0 0 1 10 10v29a10 10 0 0 0 10 10"></path>
+			<path d="M148 69h20"></path>
+			<g>
+				<path d="M168 69h0"></path>
+				<path d="M334 69h0"></path>
+				<path d="M168 69h10"></path>
+				<g>
+					<path d="M178 69h0"></path>
+					<path d="M324 69h0"></path>
+					<g class="terminal">
+						<path d="M178 69h0"></path>
+						<path d="M206 69h0"></path>
+						<rect x="178" y="58" width="28" height="22" rx="10" ry="10"></rect>
+						<text x="192" y="73">.</text>
+					</g>
+					<path d="M206 69h10"></path>
+					<g>
+						<path d="M216 69h0"></path>
+						<path d="M324 69h0"></path>
+						<path d="M216 69a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+						<g class="terminal">
+							<path d="M236 39h0"></path>
+							<path d="M304 39h0"></path>
+							<rect x="236" y="28" width="68" height="22" rx="10" ry="10"></rect>
+							<text x="270" y="43">Number</text>
+						</g>
+						<path d="M304 39a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+						<path d="M216 69h20"></path>
+						<g class="terminal">
+							<path d="M236 69h8"></path>
+							<path d="M296 69h8"></path>
+							<rect x="244" y="58" width="52" height="22" rx="10" ry="10"></rect>
+							<text x="270" y="73">Name</text>
+						</g>
+						<path d="M304 69h20"></path>
+					</g>
+				</g>
+				<path d="M324 69h10"></path>
+				<path d="M178 69a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+				<g>
+					<path d="M178 89h146"></path>
+				</g>
+				<path d="M324 89a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+			</g>
+			<path d="M334 69h20"></path>
+		</g>
+		<path d="M 354 69 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+	</g>
+</svg>

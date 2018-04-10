@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="784" height="71" viewBox="0 0 784 71">
+	<style>
+svg.railroad-diagram {
+	background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+	stroke-width: 3;
+	stroke: black;
+	fill: rgba(0,0,0,0);
+}
+svg.railroad-diagram text {
+	font: bold 14px monospace;
+	text-anchor: middle;
+}
+svg.railroad-diagram text.diagram-text {
+	font-size: 12px;
+}
+svg.railroad-diagram text.diagram-arrow {
+	font-size: 16px;
+}
+svg.railroad-diagram text.label {
+	text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+	font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+	stroke-width: 3;
+	stroke: black;
+	fill: hsl(120,100%,90%);
+}
+svg.railroad-diagram path.diagram-text {
+	stroke-width: 3;
+	stroke: black;
+	fill: white;
+	cursor: help;
+}
+svg.railroad-diagram g.diagram-text:hover path.diagram-text {
+	fill: #eee;
+}
+	</style>
+	<g transform="translate(.5 .5)">
+		<path d="M 20 30 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+		<path d="M40 40h10"></path>
+		<g>
+			<path d="M50 40h0"></path>
+			<path d="M278 40h0"></path>
+			<g class="terminal">
+				<path d="M50 40h0"></path>
+				<path d="M278 40h0"></path>
+				<rect x="50" y="29" width="228" height="22" rx="10" ry="10"></rect>
+				<text x="164" y="44">Minimal Version Identifier</text>
+			</g>
+		</g>
+		<path d="M278 40h10"></path>
+		<g>
+			<path d="M288 40h0"></path>
+			<path d="M524 40h0"></path>
+			<path d="M288 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+			<g>
+				<path d="M308 20h196"></path>
+			</g>
+			<path d="M504 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+			<path d="M288 40h20"></path>
+			<g>
+				<path d="M308 40h0"></path>
+				<path d="M504 40h0"></path>
+				<g class="terminal">
+					<path d="M308 40h0"></path>
+					<path d="M336 40h0"></path>
+					<rect x="308" y="29" width="28" height="22" rx="10" ry="10"></rect>
+					<text x="322" y="44">-</text>
+				</g>
+				<path d="M336 40h10"></path>
+				<path d="M346 40h10"></path>
+				<g class="terminal">
+					<path d="M356 40h0"></path>
+					<path d="M504 40h0"></path>
+					<rect x="356" y="29" width="148" height="22" rx="10" ry="10"></rect>
+					<text x="430" y="44">Release Metadata</text>
+				</g>
+			</g>
+			<path d="M504 40h20"></path>
+		</g>
+		<g>
+			<path d="M524 40h0"></path>
+			<path d="M744 40h0"></path>
+			<path d="M524 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+			<g>
+				<path d="M544 20h180"></path>
+			</g>
+			<path d="M724 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+			<path d="M524 40h20"></path>
+			<g>
+				<path d="M544 40h0"></path>
+				<path d="M724 40h0"></path>
+				<g class="terminal">
+					<path d="M544 40h0"></path>
+					<path d="M572 40h0"></path>
+					<rect x="544" y="29" width="28" height="22" rx="10" ry="10"></rect>
+					<text x="558" y="44">+</text>
+				</g>
+				<path d="M572 40h10"></path>
+				<path d="M582 40h10"></path>
+				<g class="terminal">
+					<path d="M592 40h0"></path>
+					<path d="M724 40h0"></path>
+					<rect x="592" y="29" width="132" height="22" rx="10" ry="10"></rect>
+					<text x="658" y="44">Build Metadata</text>
+				</g>
+			</g>
+			<path d="M724 40h20"></path>
+		</g>
+		<path d="M 744 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+	</g>
+</svg>
