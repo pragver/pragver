@@ -1,0 +1,13 @@
+# Autodetect text files
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.md text
+*.svg text
+*.txt text
+
+# Force images/fonts to be handled as binaries
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.png binary
