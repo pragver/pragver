@@ -1,5 +1,5 @@
 
-# Pragmatic Versioning
+# ![Pragmatic Versioning](img/title-light-512.png)
 
 ## Summary
 
@@ -18,6 +18,8 @@ bumped by incrementing:
   released.
 - The **Patch Number**, when only *backwards-compatible corrections* are
   released.
+
+![](img/pragver.png)
 
 Optional Metadata containing additional information associated to the release or
 the build take the respective forms `-RELEASE.METADATA` and `+BUILD.METADATA`
