@@ -1,7 +1,8 @@
 ---
 title: Semantic Versioning
 short_title: SemVer
-version: " 2.0.0"
+version: "2.0.0"
+date: 2013-06-19
 excerpt: >
   The Semantic Versioning specification is authored by Tom Preston-Werner,
   inventor of Gravatars and cofounder of GitHub.
