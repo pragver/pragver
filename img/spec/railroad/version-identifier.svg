@@ -1,3 +1,5 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="784" height="71" viewBox="0 0 784 71">
 	<style>
 svg.railroad-diagram {
@@ -45,10 +47,10 @@ svg.railroad-diagram g.diagram-text:hover path.diagram-text {
 		<g>
 			<path d="M50 40h0"></path>
 			<path d="M278 40h0"></path>
-			<g class="terminal">
+			<g class="non-terminal">
 				<path d="M50 40h0"></path>
 				<path d="M278 40h0"></path>
-				<rect x="50" y="29" width="228" height="22" rx="10" ry="10"></rect>
+				<rect x="50" y="29" width="228" height="22"></rect>
 				<text x="164" y="44">Minimal Version Identifier</text>
 			</g>
 		</g>
@@ -73,10 +75,10 @@ svg.railroad-diagram g.diagram-text:hover path.diagram-text {
 				</g>
 				<path d="M336 40h10"></path>
 				<path d="M346 40h10"></path>
-				<g class="terminal">
+				<g class="non-terminal">
 					<path d="M356 40h0"></path>
 					<path d="M504 40h0"></path>
-					<rect x="356" y="29" width="148" height="22" rx="10" ry="10"></rect>
+					<rect x="356" y="29" width="148" height="22"></rect>
 					<text x="430" y="44">Release Metadata</text>
 				</g>
 			</g>
@@ -102,10 +104,10 @@ svg.railroad-diagram g.diagram-text:hover path.diagram-text {
 				</g>
 				<path d="M572 40h10"></path>
 				<path d="M582 40h10"></path>
-				<g class="terminal">
+				<g class="non-terminal">
 					<path d="M592 40h0"></path>
 					<path d="M724 40h0"></path>
-					<rect x="592" y="29" width="132" height="22" rx="10" ry="10"></rect>
+					<rect x="592" y="29" width="132" height="22"></rect>
 					<text x="658" y="44">Build Metadata</text>
 				</g>
 			</g>
