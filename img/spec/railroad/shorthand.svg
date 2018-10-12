@@ -1,0 +1,178 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="746" height="117" viewBox="0 0 746 117">
+	<style>
+svg.railroad-diagram {
+	background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+	stroke-width: 3;
+	stroke: black;
+	fill: rgba(0,0,0,0);
+}
+svg.railroad-diagram text {
+	font: bold 14px monospace;
+	text-anchor: middle;
+}
+svg.railroad-diagram text.diagram-text {
+	font-size: 12px;
+}
+svg.railroad-diagram text.diagram-arrow {
+	font-size: 16px;
+}
+svg.railroad-diagram text.label {
+	text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+	font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+	stroke-width: 3;
+	stroke: black;
+	fill: hsl(120,100%,90%);
+}
+svg.railroad-diagram path.diagram-text {
+	stroke-width: 3;
+	stroke: black;
+	fill: white;
+	cursor: help;
+}
+svg.railroad-diagram g.diagram-text:hover path.diagram-text {
+	fill: #eee;
+}
+	</style>
+	<g transform="translate(.5 .5)">
+		<path d="M 20 46 v 20 m 10 -20 v 20 m -10 -10 h 20.5"/>
+		<path d="M40 56h10"/>
+		<g>
+			<path d="M50 56h0"/>
+			<path d="M696 56h0"/>
+			<g>
+				<path d="M50 56h0"/>
+				<path d="M138 56h0"/>
+				<path d="M50 56h10"/>
+				<g class="non-terminal">
+					<path d="M60 56h0"/>
+					<path d="M128 56h0"/>
+					<rect x="60" y="45" width="68" height="22"/>
+					<text x="94" y="60">Number</text>
+				</g>
+				<path d="M128 56h10"/>
+				<text x="94" y="91" class="comment">GRADE</text>
+			</g>
+			<path d="M138 56h10"/>
+			<g>
+				<path d="M148 56h0"/>
+				<path d="M696 56h0"/>
+				<path d="M148 56a10 10 0 0 0 10 -10v-16a10 10 0 0 1 10 -10"/>
+				<g>
+					<path d="M168 20h508"/>
+				</g>
+				<path d="M676 20a10 10 0 0 1 10 10v16a10 10 0 0 0 10 10"/>
+				<path d="M148 56h20"/>
+				<g>
+					<path d="M168 56h0"/>
+					<path d="M676 56h0"/>
+					<g class="terminal">
+						<path d="M168 56h0"/>
+						<path d="M196 56h0"/>
+						<rect x="168" y="45" width="28" height="22" rx="10" ry="10"/>
+						<text x="182" y="60">.</text>
+					</g>
+					<path d="M196 56h10"/>
+					<path d="M206 56h10"/>
+					<g>
+						<path d="M216 56h0"/>
+						<path d="M304 56h0"/>
+						<path d="M216 56h10"/>
+						<g class="non-terminal">
+							<path d="M226 56h0"/>
+							<path d="M294 56h0"/>
+							<rect x="226" y="45" width="68" height="22"/>
+							<text x="260" y="60">Number</text>
+						</g>
+						<path d="M294 56h10"/>
+						<text x="260" y="91" class="comment">MAJOR</text>
+					</g>
+					<path d="M304 56h10"/>
+					<g>
+						<path d="M314 56h0"/>
+						<path d="M676 56h0"/>
+						<path d="M314 56a10 10 0 0 0 10 -10v-8a10 10 0 0 1 10 -10"/>
+						<g>
+							<path d="M334 28h322"/>
+						</g>
+						<path d="M656 28a10 10 0 0 1 10 10v8a10 10 0 0 0 10 10"/>
+						<path d="M314 56h20"/>
+						<g>
+							<path d="M334 56h0"/>
+							<path d="M656 56h0"/>
+							<g class="terminal">
+								<path d="M334 56h0"/>
+								<path d="M362 56h0"/>
+								<rect x="334" y="45" width="28" height="22" rx="10" ry="10"/>
+								<text x="348" y="60">.</text>
+							</g>
+							<path d="M362 56h10"/>
+							<path d="M372 56h10"/>
+							<g>
+								<path d="M382 56h0"/>
+								<path d="M470 56h0"/>
+								<path d="M382 56h10"/>
+								<g class="non-terminal">
+									<path d="M392 56h0"/>
+									<path d="M460 56h0"/>
+									<rect x="392" y="45" width="68" height="22"/>
+									<text x="426" y="60">Number</text>
+								</g>
+								<path d="M460 56h10"/>
+								<text x="426" y="91" class="comment">MINOR</text>
+							</g>
+							<path d="M470 56h10"/>
+							<g>
+								<path d="M480 56h0"/>
+								<path d="M656 56h0"/>
+								<path d="M480 56a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"/>
+								<g>
+									<path d="M500 36h136"/>
+								</g>
+								<path d="M636 36a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"/>
+								<path d="M480 56h20"/>
+								<g>
+									<path d="M500 56h0"/>
+									<path d="M636 56h0"/>
+									<g class="terminal">
+										<path d="M500 56h0"/>
+										<path d="M528 56h0"/>
+										<rect x="500" y="45" width="28" height="22" rx="10" ry="10"/>
+										<text x="514" y="60">.</text>
+									</g>
+									<path d="M528 56h10"/>
+									<path d="M538 56h10"/>
+									<g>
+										<path d="M548 56h0"/>
+										<path d="M636 56h0"/>
+										<path d="M548 56h10"/>
+										<g class="non-terminal">
+											<path d="M558 56h0"/>
+											<path d="M626 56h0"/>
+											<rect x="558" y="45" width="68" height="22"/>
+											<text x="592" y="60">Number</text>
+										</g>
+										<path d="M626 56h10"/>
+										<text x="592" y="91" class="comment">PATCH</text>
+									</g>
+								</g>
+								<path d="M636 56h20"/>
+							</g>
+						</g>
+						<path d="M656 56h20"/>
+					</g>
+				</g>
+				<path d="M676 56h20"/>
+			</g>
+		</g>
+		<path d="M696 56h10"/>
+		<path d="M 706 56 h 20 m -10 -10 v 20 m 10 -20 v 20"/>
+	</g>
+</svg>

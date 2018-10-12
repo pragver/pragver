@@ -1,0 +1,250 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="832" height="216" viewBox="0 0 832 216">
+	<style>
+svg.railroad-diagram {
+	background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+	stroke-width: 3;
+	stroke: black;
+	fill: rgba(0,0,0,0);
+}
+svg.railroad-diagram text {
+	font: bold 14px monospace;
+	text-anchor: middle;
+}
+svg.railroad-diagram text.diagram-text {
+	font-size: 12px;
+}
+svg.railroad-diagram text.diagram-arrow {
+	font-size: 16px;
+}
+svg.railroad-diagram text.label {
+	text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+	font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+	stroke-width: 3;
+	stroke: black;
+	fill: hsl(120,100%,90%);
+}
+svg.railroad-diagram path.diagram-text {
+	stroke-width: 3;
+	stroke: black;
+	fill: white;
+	cursor: help;
+}
+svg.railroad-diagram g.diagram-text:hover path.diagram-text {
+	fill: #eee;
+}
+	</style>
+	<g transform="translate(.5 .5)">
+		<path d="M 20 76 v 20 m 10 -20 v 20 m -10 -10 h 20.5"/>
+		<g>
+			<path d="M40 86h0"/>
+			<path d="M792 86h0"/>
+			<path d="M40 86a10 10 0 0 0 10 -10v-46a10 10 0 0 1 10 -10"/>
+			<g>
+				<path d="M60 20h712"/>
+			</g>
+			<path d="M772 20a10 10 0 0 1 10 10v46a10 10 0 0 0 10 10"/>
+			<path d="M40 86h20"/>
+			<g>
+				<path d="M60 86h0"/>
+				<path d="M772 86h0"/>
+				<path d="M60 86h10"/>
+				<g>
+					<path d="M70 86h0"/>
+					<path d="M762 86h0"/>
+					<path d="M70 86a10 10 0 0 0 10 -10v-38a10 10 0 0 1 10 -10h352a10 10 0 0 1 10 10v38a10 10 0 0 0 10 10"/>
+					<path d="M70 86h20"/>
+					<g>
+						<path d="M90 86h0"/>
+						<path d="M442 86h0"/>
+						<g>
+							<path d="M90 86h0"/>
+							<path d="M442 86h0"/>
+							<text x="266" y="52" class="comment">Core Comparators</text>
+							<path d="M90 86h20"/>
+							<g>
+								<path d="M110 86h0"/>
+								<path d="M422 86h0"/>
+								<path d="M110 86h10"/>
+								<g>
+									<path d="M120 86h0"/>
+									<path d="M412 86h0"/>
+									<path d="M120 86h20"/>
+									<g>
+										<path d="M140 86h13"/>
+										<path d="M379 86h13"/>
+										<g>
+											<path d="M153 86h0"/>
+											<path d="M277 86h0"/>
+											<path d="M153 86a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"/>
+											<g>
+												<path d="M173 66h84"/>
+											</g>
+											<path d="M257 66a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"/>
+											<path d="M153 86h20"/>
+											<g class="terminal">
+												<path d="M173 86h0"/>
+												<path d="M257 86h0"/>
+												<rect x="173" y="75" width="84" height="22" rx="10" ry="10"/>
+												<text x="215" y="90">Operator</text>
+											</g>
+											<path d="M257 86h20"/>
+										</g>
+										<path d="M277 86h10"/>
+										<g class="non-terminal">
+											<path d="M287 86h0"/>
+											<path d="M379 86h0"/>
+											<rect x="287" y="75" width="92" height="22"/>
+											<text x="333" y="90">Shorthand</text>
+										</g>
+									</g>
+									<path d="M392 86h20"/>
+									<path d="M120 86a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"/>
+									<g>
+										<path d="M140 116h0"/>
+										<path d="M392 116h0"/>
+										<g class="non-terminal">
+											<path d="M140 116h0"/>
+											<path d="M232 116h0"/>
+											<rect x="140" y="105" width="92" height="22"/>
+											<text x="186" y="120">Shorthand</text>
+										</g>
+										<path d="M232 116h10"/>
+										<path d="M242 116h10"/>
+										<g class="terminal">
+											<path d="M252 116h0"/>
+											<path d="M280 116h0"/>
+											<rect x="252" y="105" width="28" height="22" rx="10" ry="10"/>
+											<text x="266" y="120">-</text>
+										</g>
+										<path d="M280 116h10"/>
+										<path d="M290 116h10"/>
+										<g class="non-terminal">
+											<path d="M300 116h0"/>
+											<path d="M392 116h0"/>
+											<rect x="300" y="105" width="92" height="22"/>
+											<text x="346" y="120">Shorthand</text>
+										</g>
+									</g>
+									<path d="M392 116a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"/>
+								</g>
+								<path d="M412 86h10"/>
+								<path d="M120 86a10 10 0 0 0 -10 10v40a10 10 0 0 0 10 10"/>
+								<g>
+									<path d="M120 146h108"/>
+									<path d="M304 146h108"/>
+									<path d="M228 146h20"/>
+									<g class="terminal">
+										<path d="M248 146h0"/>
+										<path d="M284 146h0"/>
+										<rect x="248" y="135" width="36" height="22" rx="10" ry="10"/>
+										<text x="266" y="150">&amp;&amp;</text>
+									</g>
+									<path d="M284 146h20"/>
+									<path d="M228 146a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"/>
+									<g>
+										<path d="M248 166h36"/>
+									</g>
+									<path d="M284 166a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"/>
+								</g>
+								<path d="M412 146a10 10 0 0 0 10 -10v-40a10 10 0 0 0 -10 -10"/>
+							</g>
+							<path d="M422 86h20"/>
+						</g>
+					</g>
+					<path d="M442 28h160a10 10 0 0 1 10 10v38a10 10 0 0 0 10 10"/>
+					<path d="M442 86h20"/>
+					<g xmlns="http://www.w3.org/2000/svg">
+						<text x="528" y="52" class="comment">Release Comparators</text>
+						<path d="M462 86h0"/>
+						<path d="M582 86h0"/>
+						<g class="terminal">
+							<path d="M462 86h0"/>
+							<path d="M490 86h0"/>
+							<rect x="462" y="75" width="28" height="22" rx="10" ry="10"/>
+							<text x="476" y="90">-</text>
+						</g>
+						<path d="M490 86h10"/>
+						<path d="M500 86h10"/>
+						<g>
+							<path d="M510 86h0"/>
+							<path d="M582 86h0"/>
+							<path d="M510 86h10"/>
+							<g class="non-terminal">
+								<path d="M520 86h0"/>
+								<path d="M572 86h0"/>
+								<rect x="520" y="75" width="52" height="22"/>
+								<text x="546" y="90">Name</text>
+							</g>
+							<path d="M572 86h10"/>
+							<path d="M520 86a10 10 0 0 0 -10 10v10a10 10 0 0 0 10 10"/>
+							<g class="terminal">
+								<path d="M520 116h12"/>
+								<path d="M560 116h12"/>
+								<rect x="532" y="105" width="28" height="22" rx="10" ry="10"/>
+								<text x="546" y="120">.</text>
+							</g>
+							<path d="M572 116a10 10 0 0 0 10 -10v-10a10 10 0 0 0 -10 -10"/>
+						</g>
+					</g>
+					<path d="M582 86h20"/>
+					<path d="M442 86a10 10 0 0 1 10 10v29a10 10 0 0 0 10 10h120a10 10 0 0 0 10 -10v-29a10 10 0 0 1 10 -10"/>
+					<path d="M602 86h20"/>
+					<g xmlns="http://www.w3.org/2000/svg">
+						<text x="680" y="52" class="comment">Build Comparators</text>
+						<path d="M622 86h0"/>
+						<path d="M742 86h0"/>
+						<g class="terminal">
+							<path d="M622 86h0"/>
+							<path d="M650 86h0"/>
+							<rect x="622" y="75" width="28" height="22" rx="10" ry="10"/>
+							<text x="636" y="90">+</text>
+						</g>
+						<path d="M650 86h10"/>
+						<path d="M660 86h10"/>
+						<g>
+							<path d="M670 86h0"/>
+							<path d="M742 86h0"/>
+							<path d="M670 86h10"/>
+							<g class="non-terminal">
+								<path d="M680 86h0"/>
+								<path d="M732 86h0"/>
+								<rect x="680" y="75" width="52" height="22"/>
+								<text x="706" y="90">Name</text>
+							</g>
+							<path d="M732 86h10"/>
+							<path d="M680 86a10 10 0 0 0 -10 10v10a10 10 0 0 0 10 10"/>
+							<g class="terminal">
+								<path d="M680 116h12"/>
+								<path d="M720 116h12"/>
+								<rect x="692" y="105" width="28" height="22" rx="10" ry="10"/>
+								<text x="706" y="120">.</text>
+							</g>
+							<path d="M732 116a10 10 0 0 0 10 -10v-10a10 10 0 0 0 -10 -10"/>
+						</g>
+					</g>
+					<path d="M742 86h20"/>
+					<path d="M602 86a10 10 0 0 1 10 10v29a10 10 0 0 0 10 10h120a10 10 0 0 0 10 -10v-29a10 10 0 0 1 10 -10"/>
+				</g>
+				<path d="M762 86h10"/>
+				<path d="M70 86a10 10 0 0 0 -10 10v79a10 10 0 0 0 10 10"/>
+				<g class="terminal">
+					<path d="M70 185h328"/>
+					<path d="M434 185h328"/>
+					<rect x="398" y="174" width="36" height="22" rx="10" ry="10"/>
+					<text x="416" y="189">||</text>
+				</g>
+				<path d="M762 185a10 10 0 0 0 10 -10v-79a10 10 0 0 0 -10 -10"/>
+			</g>
+			<path d="M772 86h20"/>
+		</g>
+		<path d="M 792 86 h 20 m -10 -10 v 20 m 10 -20 v 20"/>
+	</g>
+</svg>

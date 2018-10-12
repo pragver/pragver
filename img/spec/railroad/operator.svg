@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="156" height="272" viewBox="0 0 156 272">
+	<style>
+svg.railroad-diagram {
+	background-color: hsl(30,20%,95%);
+}
+svg.railroad-diagram path {
+	stroke-width: 3;
+	stroke: black;
+	fill: rgba(0,0,0,0);
+}
+svg.railroad-diagram text {
+	font: bold 14px monospace;
+	text-anchor: middle;
+}
+svg.railroad-diagram text.diagram-text {
+	font-size: 12px;
+}
+svg.railroad-diagram text.diagram-arrow {
+	font-size: 16px;
+}
+svg.railroad-diagram text.label {
+	text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+	font: italic 12px monospace;
+}
+svg.railroad-diagram rect {
+	stroke-width: 3;
+	stroke: black;
+	fill: hsl(120,100%,90%);
+}
+svg.railroad-diagram path.diagram-text {
+	stroke-width: 3;
+	stroke: black;
+	fill: white;
+	cursor: help;
+}
+svg.railroad-diagram g.diagram-text:hover path.diagram-text {
+	fill: #eee;
+}
+	</style>
+	<g transform="translate(.5 .5)">
+		<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+		<g>
+			<path d="M40 31h0"></path>
+			<path d="M116 31h0"></path>
+			<path d="M40 31h20"></path>
+			<g class="terminal">
+				<path d="M60 31h0"></path>
+				<path d="M96 31h0"></path>
+				<rect x="60" y="20" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="35">==</text>
+			</g>
+			<path d="M96 31h20"></path>
+			<path d="M40 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+			<g class="terminal">
+				<path d="M60 61h0"></path>
+				<path d="M96 61h0"></path>
+				<rect x="60" y="50" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="65">!=</text>
+			</g>
+			<path d="M96 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+			<path d="M40 31a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10"></path>
+			<g class="terminal">
+				<path d="M60 91h0"></path>
+				<path d="M96 91h0"></path>
+				<rect x="60" y="80" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="95">&gt; </text>
+			</g>
+			<path d="M96 91a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10"></path>
+			<path d="M40 31a10 10 0 0 1 10 10v70a10 10 0 0 0 10 10"></path>
+			<g class="terminal">
+				<path d="M60 121h0"></path>
+				<path d="M96 121h0"></path>
+				<rect x="60" y="110" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="125">&gt;=</text>
+			</g>
+			<path d="M96 121a10 10 0 0 0 10 -10v-70a10 10 0 0 1 10 -10"></path>
+			<path d="M40 31a10 10 0 0 1 10 10v100a10 10 0 0 0 10 10"></path>
+			<g class="terminal">
+				<path d="M60 151h0"></path>
+				<path d="M96 151h0"></path>
+				<rect x="60" y="140" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="155">&lt; </text>
+			</g>
+			<path d="M96 151a10 10 0 0 0 10 -10v-100a10 10 0 0 1 10 -10"></path>
+			<path d="M40 31a10 10 0 0 1 10 10v130a10 10 0 0 0 10 10"></path>
+			<g class="terminal">
+				<path d="M60 181h0"></path>
+				<path d="M96 181h0"></path>
+				<rect x="60" y="170" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="185">&lt;=</text>
+			</g>
+			<path d="M96 181a10 10 0 0 0 10 -10v-130a10 10 0 0 1 10 -10"></path>
+			<path d="M40 31a10 10 0 0 1 10 10v160a10 10 0 0 0 10 10"></path>
+			<g class="terminal">
+				<path d="M60 211h0"></path>
+				<path d="M96 211h0"></path>
+				<rect x="60" y="200" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="215">~ </text>
+			</g>
+			<path d="M96 211a10 10 0 0 0 10 -10v-160a10 10 0 0 1 10 -10"></path>
+			<path d="M40 31a10 10 0 0 1 10 10v190a10 10 0 0 0 10 10"></path>
+			<g class="terminal">
+				<path d="M60 241h0"></path>
+				<path d="M96 241h0"></path>
+				<rect x="60" y="230" width="36" height="22" rx="10" ry="10"></rect>
+				<text x="78" y="245">^ </text>
+			</g>
+			<path d="M96 241a10 10 0 0 0 10 -10v-190a10 10 0 0 1 10 -10"></path>
+		</g>
+		<path d="M 116 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+	</g>
+</svg>
