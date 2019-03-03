@@ -31,7 +31,7 @@ and can be appended to a minimal version identifier.
 The Pragmatic Versioning specification is authored by
 [Guillermo Calvo](https://github.com/guillermocalvo).
 
-[![](https://resume.guillermo.in/assets/images/thumb.png)](https://guillermo.in/)
+[![](https://guillermo.dev/assets/images/thumb.png)](https://guillermo.dev/)
 
 
 ## License
